@@ -78,7 +78,7 @@ input_var['MRG'] = mrg.transform(input_var[['MRG']])
 input_var['REVENUE'] = revenue.transform(input_var[['REVENUE']])
 input_var['TENURE'] = tenure.transform(input_var[['TENURE']])
 
-model = joblib.load('ExpressoModel.pkl')
+model = joblib.load('ExpressoModell.pkl')
 predicted = model.predict(input_var)
 
 st.markdown("<br>", unsafe_allow_html= True)
