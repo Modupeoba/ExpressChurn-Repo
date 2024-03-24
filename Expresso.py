@@ -5,8 +5,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-model = joblib.load('ExpressoModel.pkl')
-
 st.markdown("<h1 style = 'color: #3652AD; text-align: center; font-family:Garamond '>EXPRESSO CHURN PREDICTOR</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #280274; text-align: center; font-family: Copperplate Gothic'> By OBAMUYI M.V. </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
